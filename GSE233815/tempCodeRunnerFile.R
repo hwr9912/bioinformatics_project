@@ -1,0 +1,1 @@
+load("data/spatial/seurat_1stSpatial.rds")
