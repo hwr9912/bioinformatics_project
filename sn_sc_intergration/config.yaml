@@ -1,10 +1,19 @@
-cluster_key_chosen: leiden_res2
+Microglia:
+  cluster_key_chosen: leiden_res0.5
+Neuron:
+  cluster_key_chosen: leiden_res0.25
+after_qc_files:
+- GSE142445_after_qc.h5ad
+- GSE227651_after_qc.h5ad
+- GSE233815_sn_after_qc.h5ad
+annotated_files:
+- GSE142445_annotated.h5ad
+- GSE227651_annotated.h5ad
+- GSE233815_sn_annotated.h5ad
 batch:
 - GSE142445
 - GSE227651
 - GSE233815
-filename:
-- GSE142445_after_qc.h5ad
-- GSE227651_after_qc.h5ad
-- GSE233815_sn_after_qc.h5ad
+chosen_ct: Neuron
+cluster_key_chosen: leiden_res2
 project_code: sc_sn_20250714
